@@ -1,6 +1,10 @@
 % EXERCISE 1
-% Based on the frequentist theory,
-% The p-value is the probability that your null hypothesis is true. 
+% In this exercise, we are not considering the prevalence of HIV in the population and the false positive rate of the test, which are important factors in determining statistical significance using the Bayesian theory. 
+% My following answer is based soley on the frequentist theory:
+% Based on frequentist theory, we do not need to consider the probability that someone tests positive/negative for HIV and are able to determine the statistical significance of a positive HIV test result just by comparing the calculated p-value to the significance level (p </= 0.05). 
+% If the p-value is less than or equal to 0.05, I would consider the result to be statistically significant, because it is highly unlikely (</= 5% chance) that it is a false positive result. 
+% Thus, my answer is yes, if someone gets a positive test, it is "statistically significant" at the p<0.05 level.
+% If the p-value is greater than 0.05, I would not have statistically significant evidence to reject the null hypothesis, and the result may in fact be a false positive result.
 
 % EXERCISE 2 (in Matlab)
 % Used ChatGPT version 3.5 
