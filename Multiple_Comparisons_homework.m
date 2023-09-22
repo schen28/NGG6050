@@ -41,7 +41,9 @@ significant_results = find(p_values < alpha);
 % Print the significant results
 fprintf('Significant results without correction: %s\n', mat2str(significant_results));
 
-
+% Without considering the multiple comparisons problem when conducting 
+% a large number of hypothesis tests, I are more likely to encounter 
+% false positive results.
 
 
 % PART 2: Second, once you have the simulated p-values, apply both 
