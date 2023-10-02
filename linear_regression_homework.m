@@ -141,7 +141,7 @@ r = corr(age', wing_length', 'Type', 'Pearson');
 % Display the Pearson's r value
 fprintf("Pearson's r (correlation coefficient): %.4f\n", r);
 
-7. Add some noise to the data and see how the regression changes.
+% 7. Add some noise to the data and see how the regression changes.
 clc
 clear all
 % Data
